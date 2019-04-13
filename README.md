@@ -106,7 +106,7 @@ An Amazon-like CLI app that uses MySQL to take in orders and deplete stock from 
 
 ---  
     
-2. If a manager selects `VIEW ALL PRODUCTS FOR SALE`, the app will list every available item: the item IDs, names, departments, prices, and quantities.    
+2. If a user selects `VIEW ALL PRODUCTS FOR SALE`, the app will list every available item: the item IDs, names, departments, prices, and quantities.    
 
     * After the user selects this option, the app prompts the user to select an item they would like to adjust.
 
