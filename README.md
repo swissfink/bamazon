@@ -10,8 +10,9 @@ An Amazon-like CLI app that uses MySQL to take in orders and deplete stock from 
 
 ---
 
-
 ### Customer View
+
+---
 
 1. In the corresponding MySQL bamazon databse, a products table contains the following columns:
 
@@ -25,9 +26,15 @@ An Amazon-like CLI app that uses MySQL to take in orders and deplete stock from 
 
    * stock_quantity (how much of the product is available in stores)
 
+   * **Example**
+    ![alt text](https://github.com/swissfink/bamazon/blob/master/Images/Database-Setup.png "bamazon database example") 
+
 ---
 
 2. This database currently contains 10 different products. (stapler, laptop computer, rubkis cube, wheelbarrow, rake, dog food, cat litter, yoyo, printer paper, and external hard drive).
+
+    * **Example**
+    ![alt text](https://github.com/swissfink/bamazon/blob/master/Images/Inventory.png "bamazon inventory example") 
 
 ---
 
@@ -47,6 +54,9 @@ An Amazon-like CLI app that uses MySQL to take in orders and deplete stock from 
 ---
 
 5. Once the user has placed the order, the application prints out a message confirming the user's selection and quantity AND how much this purchase will be (minus taxes and shipping).
+
+    * **Example**
+    ![alt text](https://github.com/swissfink/bamazon/blob/master/Images/step%205.png "bamazon customer promts example") 
 
 ---
 
@@ -79,6 +89,8 @@ An Amazon-like CLI app that uses MySQL to take in orders and deplete stock from 
 ---
 
 ### Manager View 
+
+---
 
 1. A separate Node application called `bamazonManager.js`, when run,  will prompt the user with two options:
 
