@@ -27,13 +27,15 @@ An Amazon-like CLI app that uses MySQL to take in orders and deplete stock from 
    * stock_quantity (how much of the product is available in stores)
 
    * **Example**
-    ![alt text](https://github.com/swissfink/bamazon/blob/master/Images/Database-Setup.png "bamazon database example") 
+
+   ![alt text](https://github.com/swissfink/bamazon/blob/master/Images/Database-Setup.png "bamazon database example") 
 
 ---
 
 2. This database currently contains 10 different products. (stapler, laptop computer, rubkis cube, wheelbarrow, rake, dog food, cat litter, yoyo, printer paper, and external hard drive).
 
     * **Example**
+    
     ![alt text](https://github.com/swissfink/bamazon/blob/master/Images/Inventory.png "bamazon inventory example") 
 
 ---
