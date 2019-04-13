@@ -35,7 +35,7 @@ An Amazon-like CLI app that uses MySQL to take in orders and deplete stock from 
 2. This database currently contains 10 different products. (stapler, laptop computer, rubkis cube, wheelbarrow, rake, dog food, cat litter, yoyo, printer paper, and external hard drive).
 
     * **Example**
-    
+
     ![alt text](https://github.com/swissfink/bamazon/blob/master/Images/Inventory.png "bamazon inventory example") 
 
 ---
@@ -55,9 +55,10 @@ An Amazon-like CLI app that uses MySQL to take in orders and deplete stock from 
 
 ---
 
-5. Once the user has placed the order, the application prints out a message confirming the user's selection and quantity AND how much this purchase will be (minus taxes and shipping).
+5. Once the user has placed the order, the application prints out a message confirming the user's selection, quantity, and how much the purchase will be (minus taxes and shipping).
 
     * **Example**
+
     ![alt text](https://github.com/swissfink/bamazon/blob/master/Images/step%205.png "bamazon customer promts example") 
 
 ---
@@ -132,13 +133,13 @@ An Amazon-like CLI app that uses MySQL to take in orders and deplete stock from 
     ![alt text](https://github.com/swissfink/bamazon/blob/master/GIFs/Manager-Low-Inventory.gif "bamazon manager low inventory items menu example gif") 
     
     
-    * After the user selects this option, the app prompts the user to select an item they would like to adjust.
+    * Exactly like in section 2, once the user selects this option, the app prompts the user to select an item they would like to adjust.
 
     * Once the user selects an item, the app prompts the user to enter how many more units of that item they would like to add to the inventory.
 
     * After the user submits their entry, the app confirms the user's choices and prompts the user if they would like to continue with their adjustment.
 
-        * If the user selects "NO", the app cancels out the adjustment and redirects the user back to the low inventory list.      
+        * If the user selects "NO", the app cancels out the adjustment and redirects the user back to the low inventory list.
         
         * If the user selects "YES", the app updates the bamazon MySQL database with the user's entry, confirms if the update was successful, then redirects the user back to the start of the app.  
 
