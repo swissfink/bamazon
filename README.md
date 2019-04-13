@@ -123,7 +123,7 @@ An Amazon-like CLI app that uses MySQL to take in orders and deplete stock from 
         * If the user selects "YES", the app updates the bamazon MySQL database with the user's entry, confirms if the update was successful, then redirects the user back to the start of the app.
 
         * **Example**
-        ![alt text](https://github.com/swissfink/bamazon/blob/master/GIFs/Manager-Update-Database.gif "bamazon database update after manager adjustment example gif") 
+        ![alt text](https://github.com/swissfink/bamazon/blob/master/GIFs/Manager-Database-Update.gif "bamazon database update after manager adjustment example gif") 
 
 ---
 
